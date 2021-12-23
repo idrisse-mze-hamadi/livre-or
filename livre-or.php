@@ -42,7 +42,7 @@
     <main>
         <?php
             /* REQUETE DE LA BASE DE DONNE ET COINJOINTURE DE DEUX TABLES*/
-            $bdd = mysqli_connect("localhost","root", "", "livreor");
+            $bdd = mysqli_connect("localhost:3306","idrisse", "idrisse", "idrisse-mze-hamadi_livre-or");
             $rqc = mysqli_query($bdd, "SELECT * FROM commentaires INNER JOIN utilisateurs WHERE utilisateurs.id = commentaires.id_utilisateur ORDER BY commentaires.date DESC");
             $rsltc = mysqli_fetch_all($rqc);/*recuperation des résultats*/
 

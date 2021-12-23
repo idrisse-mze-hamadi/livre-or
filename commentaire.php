@@ -26,7 +26,7 @@
     {
         header("location:connexion.php");
     }
-    $bdd = mysqli_connect("localhost","root", "", "livreor");
+    $bdd = mysqli_connect("localhost:3306","idrisse", "idrisse", "idrisse-mze-hamadi_livre-or");
     
     if(isset($_POST["valider"])) /*Lorsqu'on valide le commentaire*/
     {

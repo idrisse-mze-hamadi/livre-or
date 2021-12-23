@@ -21,7 +21,7 @@
         }
         //Modification du profil
 
-        $bdd = mysqli_connect("localhost", "root", "", "livreor"); //On ce connecte a la base de donnée
+        $bdd = mysqli_connect("localhost:3306","idrisse", "idrisse", "idrisse-mze-hamadi_livre-or"); //On ce connecte a la base de donnée
 
         if (isset($_SESSION["login"])) // Quand on est connecté
         {

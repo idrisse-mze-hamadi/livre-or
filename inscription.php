@@ -20,7 +20,7 @@
         }
         //Vérification des informations
 
-        $bdd = mysqli_connect("localhost", "root", "", "livreor"); //On ce connecte a la base de donnée
+        $bdd = mysqli_connect("localhost:3306","idrisse", "idrisse", "idrisse-mze-hamadi_livre-or"); //On ce connecte a la base de donnée
 
         if (isset($_POST["inscription"])) // Quand on appuis sur s'inscrire..on définit chaque $_POST avec une $variable
         {

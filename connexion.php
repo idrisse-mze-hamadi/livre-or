@@ -17,7 +17,7 @@
     {
         header("location:index.php"); //permet de rediriger vers la page d'accueil une fois connecté.
     }
-    $bdd = mysqli_connect("localhost", "root", "", "livreor");
+    $bdd = mysqli_connect("localhost:3306","idrisse", "idrisse", "idrisse-mze-hamadi_livre-or");
 
     if (isset($_POST["connexion"])) // lorsqu'on ce connecte
     {
